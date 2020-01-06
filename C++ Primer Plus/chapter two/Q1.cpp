@@ -1,6 +1,3 @@
-/**
- * Q1：编写一个 C++ 程序，它显示您的姓名和地址
- */
 #include <iostream>
 
 int main()
