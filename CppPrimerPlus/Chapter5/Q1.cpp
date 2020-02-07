@@ -17,7 +17,7 @@ int main()
         sum += i;
     cout << a << "~" << b 
          << " 之间所有整数的和为 "
-         << sum;
+         << sum << endl;
          
     return 0;
 }
