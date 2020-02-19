@@ -1,0 +1,20 @@
+#include "person.hpp"
+#include <string>
+#include <cstring>
+#include <iostream>
+
+Person::Person(const std::string & ln, const char * fn)
+{
+    lname = ln;
+    strcpy(fname, fn);
+}
+
+void Person::Show() const
+{
+    std::cout << fname << " " << lname;
+}
+
+void Person::FormalShow() const
+{
+    std::cout << lname << " " << fname;
+}
